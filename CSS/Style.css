@@ -1,0 +1,88 @@
+:root{
+    --mivariable: aqua
+}
+
+
+
+/*selector html*/
+h1{color: var(--mivariable);
+    background-color: black;
+    font-size: 50px;
+
+}
+
+
+h2{
+    color: aquamarine;
+    font-size: 40px;
+    font-style: italic;
+}
+
+p{
+    color: blue;
+    background-color: red;
+    font-size: 40px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: var(--mivariable);
+}
+
+/*selector id*/
+#principal{
+    font-family: 'Shantell Sans', cursive;
+font-family: 'Tilt Neon', cursive;
+    ;color: red;
+    background-color: greenyellow;
+    text-align: justify;
+    
+    
+}
+#imagen1{
+    border-radius: 10px;
+    width: 540px;
+}
+#imagen2{
+    width: 540px;
+}
+#imagen3{
+    width: 540px;
+}
+#imagen4{
+    width: 540px;
+}
+#imagen5{
+    width: 540px;
+}
+
+
+
+
+/*selector clases*/
+.secundario{
+    color: green;
+}
+
+.pares{
+    color: yellowgreen;
+    font-size: 40px;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.impares{
+    color: blueviolet;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
+
